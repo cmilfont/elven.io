@@ -13,7 +13,9 @@ client.on('error', function (err) {
 });
 
 client.on('connect', function () {
+  console.log('connecting...');
   client.subscribe(envs.MQTT_TOPIC, function (err, params) {
+    console.log('subscribed', err, params);
     if (err) {
       console.log('Poor state update to %s', err);
       client.end();
