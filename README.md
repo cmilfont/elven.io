@@ -1,8 +1,8 @@
-Server:                                           m15.cloudmqtt.com
-User:                                               bzuxwqoz
-Password:                                      Mczu566YDfTD
-Port:                                               19094
-SSL Port:                                         29094
+Server:                                        m100.cloudmqtt.com
+User:                                          buzzwords
+Password:                                      **************
+Port:                                          19094
+SSL Port:                                      29094
 Websockets Port (TLS only):      39094
 Connection limit:                          5
 
@@ -16,8 +16,5 @@ E na sequência é convertido para JSON Object:
 {"i":"DC4F225F4282","t":"22.94","p":"6.94","o":"180"}
 
 Onde i=ID do device (endereço MAC), t=temperatura, p=pH e o=ORP
-
-
-Senha do ELK na Azure: @Fuhrer147/258*369
 
 https://app.bonsai.io/clusters/elvenio-858026575
